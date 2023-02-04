@@ -1,0 +1,6 @@
+.card {
+  margin: 2rem 1rem;
+  min-height: 70vh;
+  min-width: 80vw;
+  background-color: var(--neutral-100);
+}

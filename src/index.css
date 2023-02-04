@@ -19,6 +19,12 @@ body {
   margin: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary);
+}
+
 .font-monteserrat {
   font-family: "Montserrat", sans-serif;
 }
