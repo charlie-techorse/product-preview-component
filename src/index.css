@@ -1,0 +1,32 @@
+:root {
+  /* colors */
+  --primary: hsl(158, 36%, 37%);
+  --secondary: hsl(30, 38%, 92%);
+  --neutral-100: hsl(0, 0%, 100%);
+  --neutral-500: hsl(228, 12%, 48%);
+  --neutral-900: hsl(212, 21%, 14%);
+
+  /* font */
+  --font-size: 14px;
+
+  /* media queries */
+  --media-mobile: 375;
+  --media-desktop: 1440;
+}
+
+*,
+body {
+  margin: 0;
+}
+
+.font-monteserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-monteserrat {
+  font-family: "Fraunces", serif;
+}
+
+p {
+  font-size: var(--font-size);
+}
