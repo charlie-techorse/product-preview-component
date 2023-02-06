@@ -52,3 +52,18 @@
   flex-basis: 100%;
   flex: 1;
 }
+
+.card__content-new {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+}
+
+.card__content-old {
+  color: var(--neutral-500);
+  font-size: var(--font-size);
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  text-decoration: line-through;
+}
