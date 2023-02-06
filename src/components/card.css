@@ -68,3 +68,14 @@
   font-family: "Fraunces", serif;
   text-decoration: line-through;
 }
+
+.card__content-button {
+  width: 100%;
+  background-color: var(--primary);
+  color: var(--neutral-100);
+  height: 3rem;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--font-size);
+  font-weight: 700;
+}
