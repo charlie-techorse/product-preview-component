@@ -20,9 +20,12 @@ body {
 }
 
 body {
+  font-size: var(--font-size);
   display: flex;
   justify-content: center;
   background-color: var(--secondary);
+  align-items: center;
+  height: 100vh;
 }
 
 .font-monteserrat {
