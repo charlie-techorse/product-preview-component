@@ -15,7 +15,7 @@ export function Card({ image, type, title, description, price, newPrice }: CardP
     <div className='card__content'>
       <h2 className='card__content-type'>{type}</h2>
       <h1 className='card__content-title'>{title}</h1>
-      <p>{description}</p>
+      <p className='card__content-description'>{description}</p>
       <p>${newPrice}</p>
       <p>${price}</p>
       <button>Add to Cart</button>

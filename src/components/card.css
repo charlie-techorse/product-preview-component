@@ -30,3 +30,10 @@
   font-family: "Fraunces", serif;
   padding-bottom: 1rem;
 }
+
+.card__content-description {
+  color: var(--neutral-500);
+  font-size: var(--font-size);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+}
