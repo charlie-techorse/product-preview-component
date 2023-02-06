@@ -84,6 +84,12 @@
   border: none;
 }
 
+.card__content-button:hover {
+  color: var(--primary);
+  background-color: var(--neutral-100);
+  border: var(--primary) 1px solid;
+}
+
 .card__content-button img {
   padding-right: 1em;
 }
