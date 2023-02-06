@@ -1,24 +1,19 @@
-import { ImageType } from '../types/imageType'
+import { ItemType } from '../types/itemType'
 import './card.css'
 
 type CardProps = {
-  image: ImageType,
-  type: string,
-  title: string,
-  description: string,
-  price: number,
-  newPrice: number
+  item: ItemType
 }
 
-export function Card({ image, type, title, description, price, newPrice }: CardProps) {
+export function Card({ item }: CardProps) {
   return <div className='card'>
-    <img className='card__img' src={image.src} alt={image.name}></img>
+    <img className='card__img' src={item.image.src} alt={item.image.name}></img>
     <div className='card__content'>
-      <h2 className='card__content-type'>{type}</h2>
-      <h1 className='card__content-title'>{title}</h1>
-      <p className='card__content-description'>{description}</p>
-      <p>${newPrice}</p>
-      <p>${price}</p>
+      <h2 className='card__content-type'>{item.type}</h2>
+      <h1 className='card__content-title'>{item.title}</h1>
+      <p className='card__content-description'>{item.description}</p>
+      <p>${item.newPrice}</p>
+      <p>${item.price}</p>
       <button>Add to Cart</button>
     </div>
   </div>
