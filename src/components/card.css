@@ -44,6 +44,7 @@
   flex-wrap: wrap;
   width: 100%;
   padding-bottom: 1rem;
+  align-items: center;
 }
 
 .card__content-price {
