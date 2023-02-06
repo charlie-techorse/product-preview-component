@@ -17,7 +17,7 @@ export function Card({ item }: CardProps) {
           <p className='card__content-price card__content-new'>${item.newPrice}</p>
           <p className='card__content-price card__content-old'>${item.price}</p>
         </div>
-        <button className='card__content-button'><img src="/icon-cart.svg" />Add to Cart</button>
+        <button className='card__content-button'><img alt='' src="/icon-cart.svg" />Add to Cart</button>
       </div>
     </div>
   </div>
