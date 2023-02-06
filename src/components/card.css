@@ -14,3 +14,13 @@
 .card__content {
   padding: 1rem;
 }
+
+.card__content-type {
+  color: var(--neutral-500);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: var(--font-size);
+  padding-bottom: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

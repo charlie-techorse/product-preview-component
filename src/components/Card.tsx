@@ -13,7 +13,7 @@ export function Card({ image, type, title, description, price, newPrice }: CardP
   return <div className='card'>
     <img className='card__img' src={image}></img>
     <div className='card__content'>
-      <h2>{type}</h2>
+      <h2 className='card__content-type'>{type}</h2>
       <h1>{title}</h1>
       <p>{description}</p>
       <p>${newPrice}</p>
