@@ -3,9 +3,11 @@
   min-height: 70vh;
   width: 100%;
   background-color: var(--neutral-100);
+  border-radius: 15px;
 }
 
 .card__img {
+  border-radius: 15px 15px 0 0;
   width: 100%;
 }
 
