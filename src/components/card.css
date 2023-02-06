@@ -81,6 +81,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 
 .card__content-button img {
