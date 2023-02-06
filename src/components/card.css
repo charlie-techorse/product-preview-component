@@ -24,3 +24,9 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.card__content-title {
+  color: var(--neutral-900);
+  font-family: "Fraunces", serif;
+  padding-bottom: 1rem;
+}
