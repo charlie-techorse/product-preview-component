@@ -37,3 +37,18 @@
   font-family: "Montserrat", sans-serif;
   padding-bottom: 1rem;
 }
+
+.card__content-prices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.card__content-price {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}

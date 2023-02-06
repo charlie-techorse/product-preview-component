@@ -12,8 +12,10 @@ export function Card({ item }: CardProps) {
       <h2 className='card__content-type'>{item.type}</h2>
       <h1 className='card__content-title'>{item.title}</h1>
       <p className='card__content-description'>{item.description}</p>
-      <p>${item.newPrice}</p>
-      <p>${item.price}</p>
+      <div className='card__content-prices'>
+        <p className='card__content-price card__content-new'>${item.newPrice}</p>
+        <p className='card__content-price card__content-old'>${item.price}</p>
+      </div>
       <button>Add to Cart</button>
     </div>
   </div>
